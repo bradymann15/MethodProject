@@ -6,6 +6,9 @@ public class Main {
 
     printGreeting();
     printGreetings("Lamp");
+    int a=17;
+    int b=24;
+    System.out.println();
     }
 
     public static void printGreeting(){
@@ -14,6 +17,11 @@ public class Main {
 
     public static void printGreetings(String noun){
         System.out.println("Hello "+noun);
+    }
+
+    public static int multiply(int firstNumber, int secondNumber){
+
+        return firstNumber * secondNumber;
     }
 
 
