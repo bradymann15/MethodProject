@@ -14,6 +14,11 @@ public class Main {
         double e = 156;
         double f = divide(e,d);
         System.out.println(f);
+        int g=57;
+        int h=39;
+        boolean j= max(g,h);
+        
+
     }
 
     public static void printGreeting() {
@@ -31,6 +36,14 @@ public class Main {
 
     public static double divide(double firstInt, double secondInt) {
 
-        return firstInt / secondInt;
+        return firstInt / secondInt; }
+
+    public static boolean max(int firstInteger, int secondInteger) {
+
+        if (firstInteger>secondInteger)
+        System.out.println(firstInteger);
+
+            else System.out.println(secondInteger);
+            return firstInteger>secondInteger;
     }
 }
