@@ -8,7 +8,7 @@ public class Main {
     printGreetings("Lamp");
     int a=17;
     int b=24;
-    System.out.println();
+    int c= multiply(a,b);
     }
 
     public static void printGreeting(){
