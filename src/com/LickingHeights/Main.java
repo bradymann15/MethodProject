@@ -9,6 +9,7 @@ public class Main {
     int a=17;
     int b=24;
     int c= multiply(a,b);
+    System.out.println(c);
     }
 
     public static void printGreeting(){
@@ -21,7 +22,7 @@ public class Main {
 
     public static int multiply(int firstNumber, int secondNumber){
 
-        return firstNumber * secondNumber;
+        return firstNumber*secondNumber;
     }
 
 
