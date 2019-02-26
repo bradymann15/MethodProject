@@ -12,12 +12,16 @@ public class Main {
         System.out.println(c);
         double d = 42;
         double e = 156;
-        double f = divide(e,d);
+        double f = divide(e, d);
         System.out.println(f);
-        int g=57;
-        int h=39;
-        boolean j= max(g,h);
-        
+        int g = 57;
+        int h = 39;
+        int j = max(g, h);
+        System.out.println(j);
+        String word1 = "Baby";
+        String word2 = "Boomer";
+        String word3 = switchWords(word1, word2);
+        System.out.println(word3);
 
     }
 
@@ -36,14 +40,22 @@ public class Main {
 
     public static double divide(double firstInt, double secondInt) {
 
-        return firstInt / secondInt; }
+        return firstInt / secondInt;
+    }
 
-    public static boolean max(int firstInteger, int secondInteger) {
+    public static int max(int firstInteger, int secondInteger) {
 
-        if (firstInteger>secondInteger)
-        System.out.println(firstInteger);
+        if (firstInteger > secondInteger)
+            return firstInteger;
 
-            else System.out.println(secondInteger);
-            return firstInteger>secondInteger;
+        else {
+            return secondInteger;
+        }
+
+    }
+
+    public static String switchWords(String word1, String word2){
+
+        return word2 + " " + word1;
     }
 }
