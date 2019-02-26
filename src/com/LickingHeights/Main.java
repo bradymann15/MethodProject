@@ -12,8 +12,8 @@ public class Main {
         int b = 24;
         int c = multiply(a, b);
         System.out.println(c);
-        double d = 42;
         //method4
+        double d = 42;
         double e = 156;
         double f = divide(e, d);
         System.out.println(f);
